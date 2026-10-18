@@ -39,9 +39,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.6,
-          "width": 1.4
+          "drill": 3.5,
+          "height": 7.0,
+          "width": 7.0
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -253,7 +253,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "v3"
+      "sch_revision": "0.3"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -502,7 +502,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Memory V4.kicad_pro",
+    "filename": "memory_test.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -681,8 +681,8 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Memory V4.kicad_sch",
-        "name": "Memory V4",
+        "filename": "memory_test.kicad_sch",
+        "name": "memory_test",
         "uuid": "87b2155c-3559-46a9-b4e3-9f599b40938f"
       }
     ],
@@ -692,7 +692,7 @@
   "sheets": [
     [
       "87b2155c-3559-46a9-b4e3-9f599b40938f",
-      "Memory V4"
+      "memory_test"
     ]
   ],
   "text_variables": {},

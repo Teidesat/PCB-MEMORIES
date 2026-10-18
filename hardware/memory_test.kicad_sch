@@ -7,7 +7,7 @@
 	(title_block
 		(title "Módulo de memorias")
 		(date "10/04/26")
-		(rev "v3")
+		(rev "0.3")
 		(company "TEIDESAT")
 		(comment 1 "Rubén Martín")
 	)
@@ -2479,6 +2479,26 @@
 			)
 			(embedded_fonts no)
 		)
+	)
+	(text "TODO: Revisar los WP con todos los pull ups para ver si es correcto poner uno en cada."
+		(exclude_from_sim no)
+		(at 82.55 194.056 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2abd3553-f1bc-4d78-9cb8-e19a692187b8")
+	)
+	(text "TODO: Mejorar las huellas para incluir el tamaño del chip y el indicador del pin 1"
+		(exclude_from_sim no)
+		(at 82.55 199.136 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "aa365ae1-5b83-4f2b-9465-6577b447c594")
 	)
 	(text_box "MRAM"
 		(exclude_from_sim no)
@@ -5033,7 +5053,7 @@
 			(uuid "cbd86200-6eb5-44fe-b712-6d791a18a657")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R8")
 					(unit 1)
@@ -5114,7 +5134,7 @@
 			(uuid "7fa47e39-7eb3-4d81-9f7a-9362be6719d4")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "C4")
 					(unit 1)
@@ -5195,7 +5215,7 @@
 			(uuid "62804d4d-10da-4bfc-b80f-46d5dacd6e45")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R10")
 					(unit 1)
@@ -5294,7 +5314,7 @@
 			(uuid "87385849-ed19-4de3-aee7-a33a1f3e76e6")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "U4")
 					(unit 1)
@@ -5376,7 +5396,7 @@
 			(uuid "56aeaff0-83e9-485f-b38f-b20da34b5744")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R22")
 					(unit 1)
@@ -5454,7 +5474,7 @@
 			(uuid "ddfa0a92-a517-4dcd-b515-b8057ce09db0")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR036")
 					(unit 1)
@@ -5532,7 +5552,7 @@
 			(uuid "fd5593b6-917c-4568-9d70-9c15e242bd47")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR030")
 					(unit 1)
@@ -5609,7 +5629,7 @@
 			(uuid "1587df59-72f4-4ed0-8f8e-d274ac2eb2df")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR037")
 					(unit 1)
@@ -5708,7 +5728,7 @@
 			(uuid "174215cc-ef13-48bb-b319-f42d888a55a5")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "U6")
 					(unit 1)
@@ -5786,7 +5806,7 @@
 			(uuid "7ed7466b-6271-4495-a10f-232a730842c6")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR023")
 					(unit 1)
@@ -5864,7 +5884,7 @@
 			(uuid "f7f85992-4437-4eb2-9c5e-6bf124d9cd1b")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR029")
 					(unit 1)
@@ -5963,7 +5983,7 @@
 			(uuid "89f713d1-c443-4c51-89d6-4003e4c999de")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "U1")
 					(unit 1)
@@ -6041,7 +6061,7 @@
 			(uuid "fc3ed576-1d7d-4066-b70e-bc0ff142158e")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR021")
 					(unit 1)
@@ -6164,7 +6184,7 @@
 			(uuid "c3ede057-de85-4e3a-a7bd-9153d5c2d6f6")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "U2")
 					(unit 1)
@@ -6242,7 +6262,7 @@
 			(uuid "e0991dbf-a434-49ae-8e3f-5b3f214e3800")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR05")
 					(unit 1)
@@ -6320,7 +6340,7 @@
 			(uuid "19f16c0a-1447-4b2e-ac9c-ea2933c1b2bb")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR08")
 					(unit 1)
@@ -6402,7 +6422,7 @@
 			(uuid "080750c0-d6a9-4c8d-b0df-550f525b3484")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R24")
 					(unit 1)
@@ -6484,7 +6504,7 @@
 			(uuid "269a0726-edea-444d-bc9e-e0e0aa44b263")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R9")
 					(unit 1)
@@ -6562,7 +6582,7 @@
 			(uuid "c2713c98-07c4-4c58-b28b-2ab787a40f54")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR06")
 					(unit 1)
@@ -6640,7 +6660,7 @@
 			(uuid "fdc9d61f-9608-42b5-8dfe-ea08e0e9014f")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR027")
 					(unit 1)
@@ -6721,7 +6741,7 @@
 			(uuid "d95bcd37-c63a-46ad-9bb9-b2117c7e3a6a")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R2")
 					(unit 1)
@@ -6802,7 +6822,7 @@
 			(uuid "913f3142-d924-47e3-b8dc-3771bfb26f71")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "C2")
 					(unit 1)
@@ -6880,7 +6900,7 @@
 			(uuid "4288bedf-228e-44b4-a122-23dad6580a22")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR09")
 					(unit 1)
@@ -6961,7 +6981,7 @@
 			(uuid "5287245a-24fc-463f-b2ed-a307251cf683")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R11")
 					(unit 1)
@@ -7042,7 +7062,7 @@
 			(uuid "1df33110-f585-4c06-96ba-13598d0f4abf")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R21")
 					(unit 1)
@@ -7120,7 +7140,7 @@
 			(uuid "c5fc323a-bc0f-40fe-871c-943cce920099")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR018")
 					(unit 1)
@@ -7197,7 +7217,7 @@
 			(uuid "f65a251a-4315-4d96-b487-25a588f453a3")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR015")
 					(unit 1)
@@ -7319,7 +7339,7 @@
 			(uuid "3e98f303-b43b-415e-9701-8e9109b19fba")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "U3")
 					(unit 1)
@@ -7398,7 +7418,7 @@
 			(uuid "43940c2f-321b-41cd-b889-705b09ec6ac5")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR04")
 					(unit 1)
@@ -7476,7 +7496,7 @@
 			(uuid "80031bc5-8aeb-4496-a870-44695c45501d")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR02")
 					(unit 1)
@@ -7557,7 +7577,7 @@
 			(uuid "3c3ac1e5-79c5-42f4-a0b0-96aef75066af")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R7")
 					(unit 1)
@@ -7634,7 +7654,7 @@
 			(uuid "728131a8-0e1f-4432-a7b5-1877173a31c1")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR017")
 					(unit 1)
@@ -7715,7 +7735,7 @@
 			(uuid "59e5864f-d91d-4968-b3e9-18db99e92ef5")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "C1")
 					(unit 1)
@@ -7797,7 +7817,7 @@
 			(uuid "633146e3-564d-4c17-bd17-6f213713d354")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R6")
 					(unit 1)
@@ -7875,7 +7895,7 @@
 			(uuid "684920a6-56dd-4342-b167-631821c63266")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR020")
 					(unit 1)
@@ -7953,7 +7973,7 @@
 			(uuid "c6dbe533-aeb2-43ae-b533-e44bd6098d5d")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR031")
 					(unit 1)
@@ -8031,7 +8051,7 @@
 			(uuid "5abf5496-58fa-4d0e-bd54-bdacaf11516a")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR010")
 					(unit 1)
@@ -8109,7 +8129,7 @@
 			(uuid "b9e2af87-7dd1-4988-84ab-74828b93181a")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR019")
 					(unit 1)
@@ -8190,7 +8210,7 @@
 			(uuid "39750f80-5d74-4ead-af13-be4760fa45b6")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R4")
 					(unit 1)
@@ -8271,7 +8291,7 @@
 			(uuid "5099c8b9-3ead-4465-a6d9-d7e124499ea1")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R19")
 					(unit 1)
@@ -8349,7 +8369,7 @@
 			(uuid "21ebd9dd-342a-4974-9621-b5f63b2a9653")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR07")
 					(unit 1)
@@ -8426,7 +8446,7 @@
 			(uuid "c4234ab4-81f4-4410-be73-ddd42f66a0aa")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR024")
 					(unit 1)
@@ -8544,7 +8564,7 @@
 			(uuid "080b25d6-3d39-4a23-a3d8-cdd696db950f")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "J2")
 					(unit 1)
@@ -8622,7 +8642,7 @@
 			(uuid "48f46572-9ae5-49f2-ba7c-024a8cf2b5a7")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR011")
 					(unit 1)
@@ -8701,7 +8721,7 @@
 			(uuid "9f1d4ce9-7f00-49e9-890c-99e5aa6e6f11")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR03")
 					(unit 1)
@@ -8779,7 +8799,7 @@
 			(uuid "7d4209b5-b4af-4483-8127-b222f6ff0163")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR022")
 					(unit 1)
@@ -8858,7 +8878,7 @@
 			(uuid "e1877154-7dee-49db-8809-ff94126538a9")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR028")
 					(unit 1)
@@ -8939,7 +8959,7 @@
 			(uuid "be9acff9-9991-4b3d-8c1f-2e551d3d82a2")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R25")
 					(unit 1)
@@ -9016,7 +9036,7 @@
 			(uuid "a3acd955-349b-4ed1-8fc8-0e31614da97c")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR026")
 					(unit 1)
@@ -9097,7 +9117,7 @@
 			(uuid "c74230cc-6f11-4c07-a730-e43a01994147")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "C3")
 					(unit 1)
@@ -9174,7 +9194,7 @@
 			(uuid "9c12bfb7-ecf8-4d95-9ab0-eb36bff9cc4d")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR013")
 					(unit 1)
@@ -9253,7 +9273,7 @@
 			(uuid "4b66e61d-b117-4a47-9372-1aae6a9d762f")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR032")
 					(unit 1)
@@ -9334,7 +9354,7 @@
 			(uuid "e95fed7b-ed37-4892-8e04-e5efb13a5e64")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R1")
 					(unit 1)
@@ -9412,7 +9432,7 @@
 			(uuid "1f4b7116-442e-40f9-8eb6-c67c80b851b1")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR016")
 					(unit 1)
@@ -9493,7 +9513,7 @@
 			(uuid "c3273a32-6a1d-426d-af07-b3f3a009b5f8")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "C6")
 					(unit 1)
@@ -9570,7 +9590,7 @@
 			(uuid "491b8781-2a2e-453d-b0e8-4726821bb052")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR014")
 					(unit 1)
@@ -9652,7 +9672,7 @@
 			(uuid "1801c55f-05d7-4c6a-8345-33e139299c83")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R5")
 					(unit 1)
@@ -9734,7 +9754,7 @@
 			(uuid "b6c6ef3f-8644-4f8e-937f-4193544c179d")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R3")
 					(unit 1)
@@ -9854,7 +9874,7 @@
 			(uuid "7fc17479-e009-4d25-adc1-a7d4d6c2b5ad")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "J1")
 					(unit 1)
@@ -9932,7 +9952,7 @@
 			(uuid "ea1b61fa-c38f-489c-91c6-98636e8fd4dd")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "#PWR025")
 					(unit 1)
@@ -10013,7 +10033,7 @@
 			(uuid "8c1d95fd-09f3-4088-a110-847d78c3d6aa")
 		)
 		(instances
-			(project "Memory V4"
+			(project "memory_test"
 				(path "/87b2155c-3559-46a9-b4e3-9f599b40938f"
 					(reference "R20")
 					(unit 1)
